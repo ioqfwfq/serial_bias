@@ -4,7 +4,7 @@ function Behavior_Data_SacEndpoint_RT_BiasODR
 % x_endpoint, y_endpoint, reaction time.
 % Junda Zhu, 20221128, added reaction time
 clearvars;
-[~, Neurons_txt] = xlsread('G:\My Drive\BiasedODR\new\beh_data\filelist.xlsx','PIC');
+[~, Neurons_txt] = xlsread('G:\My Drive\BiasedODR\new\beh_data\filelist.xlsx','VIK');
 
 fn = Neurons_txt(:,1);
 
